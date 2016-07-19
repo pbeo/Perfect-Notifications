@@ -19,13 +19,8 @@
 
 import PackageDescription
 
-let versions = Version(0,0,0)..<Version(10,0,0)
-let urls = [
-    "https://github.com/pbeo/Perfect-HTTPServer.git"
-]
-
 let package = Package(
     name: "PerfectNotifications",
     targets: [],
-    dependencies: urls.map { .Package(url: $0, versions: versions) }
+    dependencies: []
 )
